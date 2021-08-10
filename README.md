@@ -76,6 +76,7 @@ For more information check the [Veins Tutorial](https://veins.car2x.org/tutorial
 - Alternatively, contact the author for a preinstalled **Instant F2MD** virtual machine or docker image.
 + Obviously joseph didn't reply to request to virtual machine in open issue.
 + I shard my virtual machine here: 
++ My virtual machine compression file is xx GB. After unpack it takes about 15GB.
 ```
 
 ## Running a simulation
