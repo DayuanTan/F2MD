@@ -46,7 +46,7 @@ The scientific publication is available on [ResearchGate](https://www.researchga
 
 ### The hard way
 
-1. [Install Sumo 1.5.0](dayuan/install_sumo1.5.0.md)
+1. Install Sumo 1.5.0 (See [dayuan's step by step instructions](dayuan/install_sumo1.5.0.md))
 ```diff
 + Check out my step by step instructions to install sumo 1.5.0 at ./dayuan/install_sumo1.5.0.md
 ```
