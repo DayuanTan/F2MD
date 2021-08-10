@@ -46,9 +46,9 @@ The scientific publication is available on [ResearchGate](https://www.researchga
 
 ### The hard way
 
-1. Install Sumo 1.5.0
+1. [Install Sumo 1.5.0](dayuan/install_sumo1.5.0.md)
 ```diff
-+ Check out my step by step instructions to install sumo 1.5.0 
++ Check out my step by step instructions to install sumo 1.5.0 at ./dayuan/install_sumo1.5.0.md
 ```
 
 2. Install OMNeT++ 5.6.1
