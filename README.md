@@ -1,3 +1,9 @@
+```diff
++ # Note by Dayuan:
++ This repo is forked from Joseph's. 
++ But his repo looks haven't been maintained for a long time. 
++ I modified this repo based on my experience. 
+```
 
 # Framework For Misbehavior Detection (F2MD)
 
@@ -28,11 +34,14 @@ The scientific publication is available on [ResearchGate](https://www.researchga
 * Launch Attacks in Real Time (HTTP to the Python Server: [attack-server](https://github.com/josephkamel/F2MD/tree/master/attack-server))
 
 ## Installation
-### The easy way
-
-1. If you're running a Debian-based Linux distribution, use the [automatic install script](https://raw.githubusercontent.com/josephkamel/F2MD/master/installF2MD) (tested on Debian 9 and Ubuntu 18.04)
-```
-$ ./installF2MD
+```diff
+- ### The easy way
+-
+- 1. If you're running a Debian-based Linux distribution, use the [automatic install script](https://raw.githubusercontent.com/josephkamel/F2MD/master/installF2MD) (tested on Debian 9 and Ubuntu 18.04)
+- ```
+- $ ./installF2MD
+- ```
++ I believe this doesn't work.
 ```
 
 ### The hard way
@@ -50,9 +59,13 @@ $ ./buildF2MD
 
 For more information check the [Veins Tutorial](https://veins.car2x.org/tutorial/) or the [OpenCV2X Tutorial](http://www.cs.ucc.ie/cv2x/pages/documentation/documentation.html).
 
-### The easiest way
 
-Alternatively, contact the author for a preinstalled **Instant F2MD** virtual machine or docker image.
+### The easiest way
+```diff
+- Alternatively, contact the author for a preinstalled **Instant F2MD** virtual machine or docker image.
++ Obviously joseph didn't reply to request to virtual machine in open issue.
++ I shard my virtual machine here: 
+```
 
 ## Running a simulation
 1. Launch the SUMO TraCI daemon
