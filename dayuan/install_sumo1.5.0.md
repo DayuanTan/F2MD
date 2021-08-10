@@ -35,20 +35,45 @@ Then build, exe below commands one by one:
 
 ```~/sumo-1.5.0$ cd build/cmake-build```
 
-```~/sumo-1.5.0$ cmake ../..```
+```~/sumo-1.5.0/build/cmake-build$ cmake ../..```
 
-```~/sumo-1.5.0$ make -j $(nproc)``` # this. step runs for a long time, wait for "100%"
+```~/sumo-1.5.0/build/cmake-build$ make -j $(nproc)``` # this. step runs for a long time, wait for "100%"
+
+
+## Step 3 intall sumo binaries we just built 
+This step makes it convenient for us to use sumo in future.
+
+```~/sumo-1.5.0/build/cmake-build$ sudo make install```
+
+Adjust your SUMO_HOME variable to the install dir (usually /usr/local/share/sumo). In my case it is ~/.bashrc file. Use below line to replace what we have did before: 
+
+```export SUMO_HOME="/usr/local/share/sumo"```#  to replace export SUMO_HOME="/home/dayuan/sumo-1.5.0"
+
+Then enable it:
+
+```$ source ~/.bashrc```
 
 
 ## Step 3 check whether install sumo successfully
 
 Check 1, run
-```$ sumo --version``` it should show ``` ```
+```$ sumo --version``` it should show it is 1.5.0 and something else.
 
 
 Check 2, run
-```$ sumo-gui --version``` it should show ``` ```
+```$ sumo-gui --version``` it should show it is 1.5.0 and something else.
 
 
-Check 3, run sumo example
-```$ sumo --version``` it should show ``` ```
+Check 3, run sumo example:
+
+```$ sumo -c ~/sumo-1.5.0/docs/tutorial/hello/data/hello.sumocfg ``` it should run without any error printing out.
+
+
+Check 4, run sumo example:
+
+```$ sumo-gui -c ~/sumo-1.5.0/docs/tutorial/hello/data/hello.sumocfg ``` it should open GUI. Click the green triangle button it should run without any error. Clicke red squre button to stop it after the time goes up to 100.
+
+You have installed sumo 1.5.0 successfully.
+
+
+
