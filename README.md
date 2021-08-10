@@ -60,6 +60,9 @@ The scientific publication is available on [ResearchGate](https://www.researchga
 ```
 $ git clone --recurse-submodules https://github.com/josephkamel/F2MD.git
 ```
+```diff
++ Care about the size. This asks for about 3GB.
+```
 4. Build all f2md modules (inet, veins, veins_inet3 and simulte)
 ```
 $ ./buildF2MD
