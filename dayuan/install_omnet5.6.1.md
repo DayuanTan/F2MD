@@ -87,8 +87,8 @@ You can launch the OMNeT++ Simulation IDE by typing the following command in the
 
 If you would like to be able to access the IDE from the application launcher or via a desktop shortcut, run one or both of the commands below:
 
-```$ make install-menu-item ```
+```~/omnet-5.6.1$ make install-menu-item ```
 
-```$ make install-desktop-icon```
+```~/omnet-5.6.1$ make install-desktop-icon```
 
 Or add a shortcut that points to the omnetpp program in the ide subdirectory by other means, for example using the Linux desktop’s context menu.
