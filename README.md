@@ -51,7 +51,11 @@ The scientific publication is available on [ResearchGate](https://www.researchga
 + Check out my step by step instructions to install sumo 1.5.0 at ./dayuan/install_sumo1.5.0.md
 ```
 
-2. Install OMNeT++ 5.6.1
+2. Install OMNeT++ 5.6.1 (See [dayuan's step by step instructions](./dayuan/install_omnet5.6.1.md))
+```diff
++ Check out my step by step instructions to install omnet 5.6.1 at ./dayuan/install_omnet5.6.1.md
+```
+
 3. Clone this repository along with all the submodules to your local machine
 ```
 $ git clone --recurse-submodules https://github.com/josephkamel/F2MD.git
