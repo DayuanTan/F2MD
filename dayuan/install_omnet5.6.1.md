@@ -71,6 +71,7 @@ When ./configure has finished, you can compile OMNeT++. Type in the terminal:
 You can now verify that the sample simulations run correctly. For example, the dyna simulation is started by entering the following commands:
 
 ```~/omnet-5.6.1$ cd samples/dyna ```
+
 ```~/omnet-5.6.1/samples/dyna$ ./dyna```
 
 By default, the samples will run using the Tcl/Tk environment. You should see nice gui windows and dialogs.
