@@ -47,6 +47,24 @@ The scientific publication is available on [ResearchGate](https://www.researchga
 ### The hard way
 
 1. Install Sumo 1.5.0
+```diff
++ Download sumo-src-1.5.0.tar.gz from https://sourceforge.net/projects/sumo/files/sumo/version%201.5.0/ 
++ Build sumo from source: (follow https://sumo.dlr.de/docs/Installing/Linux_Build.html or below)
++ $ sudo apt-get install git cmake python3 g++ libxerces-c-dev libfox-1.6-dev libgdal-dev libproj-dev libgl2ps-dev
++ $ tar xzf sumo-src-1.5.0.tar.gz
++ $ ls # you should see a directory called sumo-1.5.0
++ $ mv sumo-1.5.0 ~ #or you move it to the path you want
++
++ Go to your HOME folder, and find one of the next three files (depending of your Linux distribution): .bash_profile, .bash_login, .bashrc or .profile (Note that these files can be hidden). Then edit the file, add the below line at the end of the file:
++ export SUMO_HOME="/home/<user>/sumo-<version>" # in my case I added "export SUMO_HOME="/home/dayuan/sumo-1.5.0" " at the end of ~/.bashrc
++
++ $  source filename_youchoose # in my case it is: source ~/.bashrc 
++ 
++ You can check that SUMO_HOME was successfully set if you type
++ $ echo $SUMO_HOME
++ and console shows "/home/<user>/sumo-<version>" #in my case it shows: /home/dayuan/sumo-1.5.0
+```
+
 2. Install OMNeT++ 5.6.1
 3. Clone this repository along with all the submodules to your local machine
 ```
