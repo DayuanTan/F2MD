@@ -1,4 +1,4 @@
-# Install SUMO 1.5.0
+# Install SUMO 1.5.0 on Ubuntu 18.04
 Created by Dayuan, refer to  https://sumo.dlr.de/docs/Installing/Linux_Build.html
 
 ## Step 1
