@@ -38,3 +38,17 @@ Then build, exe below commands one by one:
 ```~/sumo-1.5.0$ cmake ../..```
 
 ```~/sumo-1.5.0$ make -j $(nproc)``` # this. step runs for a long time, wait for "100%"
+
+
+## Step 3 check whether install sumo successfully
+
+Check 1, run
+```$ sumo --version``` it should show ``` ```
+
+
+Check 2, run
+```$ sumo-gui --version``` it should show ``` ```
+
+
+Check 3, run sumo example
+```$ sumo --version``` it should show ``` ```
