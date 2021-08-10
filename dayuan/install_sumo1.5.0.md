@@ -73,6 +73,8 @@ Check 4, run sumo example:
 
 ```$ sumo-gui -c ~/sumo-1.5.0/docs/tutorial/hello/data/hello.sumocfg ``` it should open GUI. Click the green triangle button it should run without any error. Clicke red squre button to stop it after the time goes up to 100.
 
+![](img/screenshot_sumogui.png)
+
 You have installed sumo 1.5.0 successfully.
 
 
